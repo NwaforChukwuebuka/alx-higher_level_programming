@@ -6,7 +6,7 @@ def print_reversed_list_integer(my_list=None):
         my_list = []
     if not isinstance(my_list, list):
         return
-    
+
     reversed_list = list(my_list)
     reversed_list.reverse()
     for i in reversed_list:
