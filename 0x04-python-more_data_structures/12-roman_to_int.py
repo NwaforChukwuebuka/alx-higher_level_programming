@@ -24,7 +24,7 @@ def roman_to_int(roman_string):
 
         if (x != (len(roman_string) - 1) and
                 roman_dict[roman_string[x]] < roman_dict[roman_string[x + 1]]):
-                num_int += roman_dict[roman_string[x]] * -1
+            num_int += roman_dict[roman_string[x]] * -1
 
         else:
             num_int += roman_dict[roman_string[x]]
