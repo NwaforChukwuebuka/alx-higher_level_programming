@@ -1,8 +1,9 @@
 #!/usr/bin/python3
-#Nwafor Chukwuebuka <e.nwafor13@gmail.com>
+# Nwafor Chukwuebuka <e.nwafor13@gmail.com>
 # 100-safe_print_integer_err.py
 
 import sys
+
 
 def safe_print_integer_err(value):
     """Prints an integer with "{:d}".format().
@@ -17,7 +18,7 @@ def safe_print_integer_err(value):
     try:
         print("{:d}".format(value))
         return (True)
-    
+
     except (ValueError, ValueError):
         print("Exception: {}".format(sys.exc_info()[1]), file=sys.stderr)
-        return (False) 
+        return (False)
