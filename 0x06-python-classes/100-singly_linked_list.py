@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A class called  Node used to struct linked list node & class SinglyLinkedList"""
+"""A class called  Node used to struct linked list nod"""
 
 
 class Node:
@@ -13,6 +13,7 @@ class Node:
     def data(self):
         """ getter for data attr"""
         return(self.__data)
+
     @property
     def next_node(self):
         """ getter for next_node attribute"""
