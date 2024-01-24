@@ -9,7 +9,7 @@ A Square class with private instance attr 'size'
 class Square:
     """ A Square class with private instance attr 'size'
                         and  public instance 'area()'
-    
+
     Attributes:
         size (int) : The size of the instance. Default is zero
 
@@ -24,7 +24,7 @@ class Square:
 
     """
 
-    def __init__(self, size = 0) -> None:
+    def __init__(self, size=0) -> None:
         """
         Initialize the instance with a specified size.
 
