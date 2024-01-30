@@ -64,7 +64,7 @@ class Rectangle:
             return (0)
 
         return (2 * (self.__height + self.__width))
-    
+
     @staticmethod
     def bigger_or_equal(rect_1, rect_2):
         """Return the Rectangle with the greater area.
@@ -99,7 +99,7 @@ class Rectangle:
         return ("".join(rect_list))
 
     def __repr__(self):
-        """Return the official string representation of the Rectangle. class
+        """Returns the official string representation of the Rectangle. class
         Represents the width and height of the rectangle with # symbol:
         """
         rect_list = "Rectangle(" + str(self.__width)
