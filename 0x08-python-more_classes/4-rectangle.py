@@ -71,7 +71,7 @@ class Rectangle:
             if i != self.__height - 1:
                 rect_list.append("\n")
         return ("".join(rect_list))
-    
+
     def __repr__(self):
         """Return the official string representation of the Rectangle. class
         Represents the width and height of the rectangle with # symbol:
