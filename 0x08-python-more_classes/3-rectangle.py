@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 3-rectangle.py
+# 1-rectangle.py
 # Nwafor Chukwuebuka
 """Defines a Rectangle class."""
 
@@ -57,3 +57,17 @@ class Rectangle:
             return (0)
 
         return (2 * (self.__height + self.__width))
+
+    def __str__(self) -> str:
+        """ Returns string representation of the Reactangle class
+            Represents the width and height of the rectangle with # symbol:
+        """
+        if self.__height == 0 or self.__width == 0:
+            return ("")
+
+        rect_list = []
+        for i in range(self.__height):
+            [rect_list.append('#') for j in range(self.__width)]
+            if i != self.__height - 1:
+                rect_list.append("\n")
+        return ("".join(rect_list))
