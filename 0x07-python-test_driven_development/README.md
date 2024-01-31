@@ -1,4 +1,5 @@
 0x07 Python Test-Driven Development
+Author: Created by Nwafor Chukwuebuka
 This repository contains solutions to the Python Test-Driven Development project of ALX Software Engineering program.
 
 Tasks Overview
@@ -6,7 +7,7 @@ Tasks Overview
 Write a function that adds two integers. The function prototype is:
 
 python
-Copy code
+
 def add_integer(a, b=98):
     """
     Function to add two integers.
@@ -26,7 +27,7 @@ def add_integer(a, b=98):
 Write a function that divides all elements of a matrix by a given number. The function prototype is:
 
 python
-Copy code
+
 def matrix_divided(matrix, div):
     """
     Function to divide all elements of a matrix.
@@ -47,7 +48,7 @@ def matrix_divided(matrix, div):
 Write a function that prints a given first name and last name. The function prototype is:
 
 python
-Copy code
+
 def say_my_name(first_name, last_name=""):
     """
     Function to print a name.
@@ -64,7 +65,7 @@ def say_my_name(first_name, last_name=""):
 Write a function that prints a square with the character '#'. The function prototype is:
 
 python
-Copy code
+
 def print_square(size):
     """
     Function to print a square.
@@ -81,7 +82,7 @@ def print_square(size):
 Write a function that prints a text with two new lines after each '.', '?' and ':'. The function prototype is:
 
 python
-Copy code
+
 def text_indentation(text):
     """
     Function to print text with indentation.
@@ -100,12 +101,9 @@ How to Run
 To run each task, execute the corresponding Python script. For example, to run the first task:
 
 bash
-Copy code
 ./0-add_integer.py
 To run the tests for each task, use the following command:
 
 bash
-Copy code
+
 python3 -m doctest -v ./tests/<filename>.txt
-Author
-Created by Nwafor Chukwuebuka
