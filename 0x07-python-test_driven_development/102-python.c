@@ -1,5 +1,4 @@
-#define _POSIX_C_SOURCE 200809L
-#include "Python.h"
+#include "/usr/include/python2.7"
 
 /**
  * print_python_string - Prints info about Python strings.
