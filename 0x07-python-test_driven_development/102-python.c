@@ -1,4 +1,4 @@
-#include "/usr/include/python2.7"
+#include "/usr/include/python3.8/Python.h"
 
 /**
  * print_python_string - Prints info about Python strings.
@@ -25,3 +25,4 @@ void print_python_string(PyObject *p)
 		printf("  type: compact unicode object\n");
 	printf("  length: %ld\n", len);
 	printf("  value: %ls\n", PyUnicode_AsWideCharString(p, &len));
+}
