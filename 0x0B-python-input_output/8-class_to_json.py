@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # 10-class_to_json.py
-# Nwafor chukwuebuka 
+# Nwafor chukwuebuka
 """Defines a Python class-to-JSON converter"""
 
 
