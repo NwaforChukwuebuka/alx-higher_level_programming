@@ -2,20 +2,23 @@
 # 101-stats.py
 # Nwafor Chukwuebuka
 """Calculates metrics based on standard input.
-After processing every ten lines or upon keyboard interruption (CTRL + C), this function displays:
+After processing every ten lines or upon keyboard interruption (CTRL + C),
+this function displays:
 Total file size accumulated so far.
  Count of encountered status codes.
 """
+
 
 def print_stats(size, status_codes):
     """ Prints accumulated metrics.
    Args:
     size (int): Accumulated file size.
-    status_codes (dict): Count of status codes encountered.    
+    status_codes (dict): Count of status codes encountered.
     """
     print("File size: {}".format(size))
     for k in sorted(status_codes):
         print("{}: {}".format(k, status_codes[k]))
+
 
 if __name__ == "__main__":
     import sys
