@@ -1,10 +1,9 @@
 -- create user_0d_1 with all privileges
 CREATE USER
-	IF N	OT EXISTS 'user_0d_1'@'localhost'
+	IF NOT EXISTS 'user_0d_1'@'localhost'
 	IDENTIFIED BY 'user_0d_1_pwd';
 GRANT PRIVILEGES
 	ON *.*
-	TO 'user_0d_1'@'localhost'
-        IDENTIFIED BY 'user_0d_1_pwd';
+	TO 'user_0d_1'@'localhost';
 FLUSH PRIVILEGES;
 	
