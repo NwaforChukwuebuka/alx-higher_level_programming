@@ -5,6 +5,7 @@ Script to list all states starting with 'N' from the database hbtn_0e_0_usa.
 import sys
 import MySQLdb
 
+
 def list_states_starting_with_n(username, password, database):
     """
     Lists all states starting with 'N' from the specified database.
@@ -40,6 +41,7 @@ def list_states_starting_with_n(username, password, database):
     # Close cursor and connection
     cur.close()
     conn.close()
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
