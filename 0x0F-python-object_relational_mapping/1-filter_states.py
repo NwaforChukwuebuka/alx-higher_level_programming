@@ -43,7 +43,7 @@ def list_states_starting_with_n(username, password, database):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: ./1-filter_states.py <mysql username> <mysql password> <database name>")
+        print("Usage: ./1-filter_states.py <mysql uname> <pass> <db name>")
         sys.exit(1)
 
     list_states_starting_with_n(sys.argv[1], sys.argv[2], sys.argv[3])
